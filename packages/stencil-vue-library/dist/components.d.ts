@@ -1,0 +1,3 @@
+import type { JSX } from 'zczy-stencil-components';
+export declare const BpfUpload: import("vue").DefineSetupFnComponent<JSX.BpfUpload & import("./vue-component-lib/utils").InputProps<string | number | boolean>, {}, {}, JSX.BpfUpload & import("./vue-component-lib/utils").InputProps<string | number | boolean> & {}, import("vue").PublicProps>;
+export declare const MyComponent: import("vue").DefineSetupFnComponent<JSX.MyComponent & import("./vue-component-lib/utils").InputProps<string | number | boolean>, {}, {}, JSX.MyComponent & import("./vue-component-lib/utils").InputProps<string | number | boolean> & {}, import("vue").PublicProps>;

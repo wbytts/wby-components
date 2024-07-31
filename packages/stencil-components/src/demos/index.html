@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Stencil Component Starter</title>
+
+  <script type="module" src="/build/zczy-stencil-components.esm.js"></script>
+  <script nomodule src="/build/zczy-stencil-components.js"></script>
+  <script src="https://unpkg.com/vue@3"></script>
+</head>
+
+<body>
+
+  <div id="app">
+    <bpf-upload
+      headers='{
+        "ucClientApp": "wms",
+        "ucClientType": "PC",
+        "from": "wms",
+        "ucSystemFlag": "7"
+      }'
+    ></bpf-upload>
+  </div>
+
+
+  <script>
+    const { createApp } = Vue;
+
+    const app = createApp({
+      data() {
+        return {
+          msg: 'hello',
+          headers: {
+            ucClientApp: 'wms',
+            ucClientType: 'PC',
+            from: 'wms',
+            ucSystemFlag: '7'
+          }
+        }
+      }
+    });
+
+    // 将 bpf- 开头的组件识别为自定义组件
+    app.config.compilerOptions.isCustomElement = (tag) => tag.startsWith('bpf-')
+
+    app.mount("#app")
+  </script>
+</body>
+
+</html>

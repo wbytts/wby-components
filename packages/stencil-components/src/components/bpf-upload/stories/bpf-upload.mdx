@@ -1,0 +1,22 @@
+import '/www/build/zczy-stencil-components.esm.js'
+import { Meta, Markdown, Primary, Controls, Story, Title, Subtitle, Description, Stories } from "@storybook/blocks";
+import Readme from "../readme.md?raw";
+
+import * as BpfUploadStories from './bpf-upload.stories'
+
+
+<Meta of={BpfUploadStories} />
+
+---
+<Title />
+<Subtitle />
+<Description />
+<Primary />
+<Controls />
+{/* <Stories /> */}
+---
+
+
+<Markdown>{Readme}</Markdown>
+
+

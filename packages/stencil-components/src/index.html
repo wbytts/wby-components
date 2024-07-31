@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Stencil Component Starter</title>
+
+  <script type="module" src="/build/zczy-stencil-components.esm.js"></script>
+  <script nomodule src="/build/zczy-stencil-components.js"></script>
+  <script src="https://unpkg.com/vue@3"></script>
+</head>
+
+<body>
+
+  <bpf-upload 
+    headers='{"ucClientApp": "wms","ucClientType": "PC","from": "wms","ucSystemFlag": "7", "ucSsoTokenId": "b8ab7988b1744a7eb255cb99b4930f88"}'
+    accept=".jpg|.png|.pdf|.docx"
+  ></bpf-upload>
+
+
+  <script>
+
+  </script>
+</body>
+
+</html>

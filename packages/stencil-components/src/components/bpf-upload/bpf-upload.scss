@@ -1,0 +1,17 @@
+.container {
+  border: 1px dashed red;
+  width: 200px;
+  min-height: 80px;
+
+  .upload-btn {
+    height: 30px;
+    border-radius: 4px;
+    background-color: #409EFF;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFF;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:not(:defined) {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 8px;
+  border: solid 1px var(--s-color-outline-variant);
+  margin: 16px;
+  display: flow-root;
+}
+
+main>* {
+  margin: 8px;
+}

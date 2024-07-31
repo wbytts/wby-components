@@ -1,0 +1,72 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "bpf-preview",
+      "description": {
+        "kind": "markdown",
+        "value": ""
+      },
+      "attributes": [
+        {
+          "name": "zc-title",
+          "description": "标题"
+        }
+      ]
+    },
+    {
+      "name": "bpf-upload",
+      "description": {
+        "kind": "markdown",
+        "value": ""
+      },
+      "attributes": [
+        {
+          "name": "accept",
+          "description": "可选的文件类型"
+        },
+        {
+          "name": "app-code",
+          "description": "应用编码"
+        },
+        {
+          "name": "biz-module",
+          "description": "业务模块编码（英文字母）"
+        },
+        {
+          "name": "headers",
+          "description": "上传时的附加请求头"
+        },
+        {
+          "name": "oss-delete",
+          "description": "删除文件时，是否可同步删除OSS服务器上的文件：0-否，1-是"
+        },
+        {
+          "name": "source",
+          "description": "终端来源：1-PC，2-APP"
+        }
+      ]
+    },
+    {
+      "name": "my-component",
+      "description": {
+        "kind": "markdown",
+        "value": ""
+      },
+      "attributes": [
+        {
+          "name": "first",
+          "description": "The first name"
+        },
+        {
+          "name": "last",
+          "description": "The last name"
+        },
+        {
+          "name": "middle",
+          "description": "The middle name"
+        }
+      ]
+    }
+  ]
+}
